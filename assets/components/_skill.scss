@@ -1,0 +1,24 @@
+.skill {
+    &__content {
+        @include flex(space-around, center, wrap);
+        padding: 102px 0 101px 0;
+    }
+    &__lines {
+        background: #C4C4C4;
+        width: 445px;
+        height: 5px;
+        margin-bottom: 30px;
+    }
+    &__line {
+        background: #34547A;
+        transform: rotate(-0.06deg);
+        width: 349.36px;
+        height: 5px;
+    }
+    &__description {
+        margin-bottom: 20px;
+    }
+    &__title {
+        margin-bottom: 50px;
+    }
+}

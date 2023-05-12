@@ -1,0 +1,37 @@
+.conta {
+    max-width: 540px;
+    margin: 0 auto;
+}
+.form {
+    background: #EEEFF1;
+    &__title, &__description {
+        text-align: center;
+    }
+    &__title {
+        padding: 100px 0 50px 0;
+    }
+    &__description {
+        padding-bottom: 65px;
+    }
+    &__btn {
+        padding: 50px 0 100px 0;
+        display: flex;
+        justify-content: center;
+    }
+    &__i {
+        padding: 17px 80px 18px 20px;
+        background: white;
+        border: none;
+        font-weight: 400;
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__bottom {
+        padding: 17px 348px 143px 20px;
+        font-size: 14px;
+        border: none;
+        margin-top: 20px;
+    }
+}

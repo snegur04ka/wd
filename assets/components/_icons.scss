@@ -1,0 +1,7 @@
+.icons {
+    background: #34547A;
+    &__content {
+        padding: 100px 0;
+        @include flex(space-between, center, wrap);
+    }
+}

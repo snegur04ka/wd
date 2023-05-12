@@ -1,0 +1,6 @@
+.client {
+    &__content {
+        @include flex(space-between, center, wrap);
+        padding-bottom: 100px;
+    }
+}

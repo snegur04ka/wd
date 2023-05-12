@@ -1,0 +1,12 @@
+.cont {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.project {
+    &__content {
+        padding: 28px 0 72px 0;
+    }
+    &__top, &__bottom {
+        @include flex(center, center, wrap);
+    }
+}

@@ -1,0 +1,25 @@
+.hero {
+    background: #EEEFF1;
+    &__content {
+        @include flex(space-between, none, wrap);
+        padding-top: 70px;
+        margin-left: 101px;
+    }
+    &__left {
+        padding-top: 21px
+    }
+    &__title {
+        @include font(500, 48px, black);
+    }
+    &__description {
+        margin: 60px 0;
+    }
+    &__btn {
+        padding: 25px 41px;
+        @include font(400, 16px, white);
+        letter-spacing: 0.1em;
+        background: #34547A;
+        border: none;
+        margin-bottom: 146px;
+    }
+}

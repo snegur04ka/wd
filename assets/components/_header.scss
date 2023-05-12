@@ -1,0 +1,14 @@
+.header {
+    background: #EEEFF1;
+    &__content {
+        @include flex(space-between, center, wrap);
+        padding: 50px 0 70px 0;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        margin-left: 42px;
+    }
+}
